@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 200;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.info {
+    text-align: center;
+}
+
+.infotitle {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item {
+    max-width: 200px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quotetext {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: light italic;
+}
+
+.quoteauthor {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.sign-up {
+    margin: 80px;
+    background-color: #3882F6;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 50px 100px;
+    text-align: center;
+}
